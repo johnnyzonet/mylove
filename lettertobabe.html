@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To My Forever</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow: hidden;
+      animation: backgroundFade 30s ease-in-out infinite;
+    }
+    @keyframes backgroundFade {
+      0% { background: linear-gradient(120deg, #f6d365, #fda085); }
+      50% { background: linear-gradient(120deg, #84fab0, #8fd3f4); }
+      100% { background: linear-gradient(120deg, #f6d365, #fda085); }
+    }
+    .letter-container {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 800px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 2s ease-in-out;
+    }
+    h1 {
+      text-align: center;
+      font-family: 'Great Vibes', cursive;
+      font-size: 48px;
+      color: #b80000;
+      margin-bottom: 20px;
+    }
+    p {
+      line-height: 1.9;
+      font-size: 18px;
+      color: #333;
+    }
+    .signature {
+      text-align: right;
+      margin-top: 40px;
+      font-style: italic;
+      color: #444;
+    }
+    .sparkle {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background: url('https://media.giphy.com/media/l4FGGafcOHmrlQxG4/giphy.gif') center/cover no-repeat;
+      opacity: 0.1;
+      z-index: -1;
+      animation: pulse 10s infinite;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.1; }
+      50% { opacity: 0.2; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sparkle"></div>
+  <div class="letter-container">
+    <h1>To My Forever</h1>
+    <p>My dearest love,</p>
+    <p>
+      One month ago, on June 26th, I asked you to spend the rest of your life with me. And in that moment, time stood still. Just two days later, we celebrated our one year anniversary. A full year of laughs, hugs, adventures, and countless reminders of why you are the love of my life.
+    </p>
+    <p>
+      I will be honest, I find myself overflowing with emotions. You have stood by me through everything baby. The highs, the lows, and the moments I didn't even know how to put into words. You've loved me at my best and at my worst. You've been patient with me, pushed me when I needed it, and comforted me when the world felt heavy.
+    </p>
+    <p>
+      Thank you. Thank you for every little thing you do mi amor. You have a way of making me feel seen, heard, and truly loved. You are my peace and my spark all at once. I could not have asked for a more amazing fiancé. I hoped and prayed that one day I would find you baby and I thank god everyday for putting you in my life.
+    </p>
+    <p>
+      I don’t know what I did to deserve someone as incredible as you, but I promise to never stop showing you how much you mean to me. I will choose you again and again not because I have to but because loving you is the easiest and most beautiful choice I have ever made.
+    </p>
+    <p>
+      Our journey is just beginning mi amor and I can't wait for every step we’ll take together.
+    </p>
+    <p class="signature">
+      Forever yours,<br />
+      Your fiancé ❤️
+    </p>
+  </div>
+</body>
+</html>
