@@ -13,6 +13,7 @@
       background: #fdf6f9;
       width: 100%;
       height: 100%;
+      isolation: isolate;
     }
     body {
       display: block;
@@ -29,7 +30,7 @@
       height: 100dvh;
       background: url('./heart.gif') center center / cover no-repeat;
       opacity: 0.4;
-      z-index: -1;
+      z-index: 0;
       animation: fadeIn 2s ease-in-out;
     }
     .letter-container {
@@ -40,6 +41,8 @@
       max-width: 90vw;
       box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
       animation: fadeIn 2s ease-in-out;
+      position: relative;
+      z-index: 1;
     }
     h1 {
       text-align: center;
